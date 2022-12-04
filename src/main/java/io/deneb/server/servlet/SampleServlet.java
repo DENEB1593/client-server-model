@@ -1,7 +1,6 @@
-package io.deneb.server.endpoint;
+package io.deneb.server.servlet;
 
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -10,9 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-public class SampleEndPoint extends HttpServlet {
+public class SampleServlet extends HttpServlet {
 
-  private final static Logger log = LoggerFactory.getLogger(SampleEndPoint.class);
+  private final static Logger log = LoggerFactory.getLogger(SampleServlet.class);
 
   @Override
   protected void doGet(HttpServletRequest request,
