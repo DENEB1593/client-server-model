@@ -1,4 +1,4 @@
-package io.deneb.server.database.endpoint;
+package io.deneb.server.endpoint;
 
 import java.sql.SQLOutput;
 
